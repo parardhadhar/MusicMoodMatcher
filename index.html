@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Mood Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load face-api.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Music Mood Matcher</h1>
+        <p>Let’s detect your mood with your webcam!</p>
+        <video id="video" width="720" height="560" autoplay muted></video>
+        <div id="result">
+            <p>Your mood: <span id="mood">Waiting...</span></p>
+            <p>Playlist suggestion: <span id="playlist">Waiting...</span></p>
+        </div>
+        <button id="startBtn">Start Detection</button>
+        <div class="footer">
+            <p>Made with ❤️ by Parardha Dhar</p>
+            <p>
+                <a href="https://github.com/parardhadhar" target="_blank">GitHub</a> |
+                <a href="https://instagram.com/parardha.er" target="_blank">Instagram</a> |
+                <a href="https://www.linkedin.com/in/parardhadhar/" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
